@@ -1,5 +1,5 @@
 # Base Image with OpenJDK17 and Maven
-FROM maven:3.8.5-openjdk-17
+FROM maven:3.6.3-openjdk-14
 
 # copying the required application files
 COPY . .

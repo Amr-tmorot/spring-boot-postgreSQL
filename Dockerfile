@@ -1,7 +1,7 @@
 # Base Image with OpenJDK17 and Maven
 FROM maven:3.8.5-openjdk-17
 
-# coping the required application files
+# copying the required application files
 COPY . .
 
 # building the spring boot app

@@ -26,7 +26,7 @@ public class BooksSpringController {
             value = "/",
             method = RequestMethod.GET)
     public ResponseEntity<String> helloMethod() {
-        return ResponseEntity.ok().body("hello friends");
+        return ResponseEntity.ok().body("Hello From Northflank");
     }
 
     @RequestMapping(value = "/topics")
